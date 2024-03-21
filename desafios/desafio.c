@@ -3,6 +3,27 @@
 #include<locale.h> // local
 
 // Fazer um programa no qual o usuário digite o início e o fim de um intervalo e o programa deve exibir todos os números ímpares no intervalo. 
+/*
+main(){
+		
+	int inicio;
+	printf("Digite o comeco: ");
+	scanf("%i", &inicio);
+	
+	int fim;
+	printf("Digite o fim: ");
+	scanf("%i", &fim);
+	
+	int i;
+	for(i=inicio; i<=fim; i++){
+		if(i%2==1){
+			printf("\n%i", i);
+		}
+	}
+	
+	
+}
+*/
 
 // Fazer um programa que force o usuário a digitar um número par para finalizar o programa. 
 // Enquanto o usuário estiver digitando um número ímpar
@@ -10,7 +31,7 @@
 
 // Faça um programa que exiba a tabuada até 10 de um número digitado pelo usuário.
 /*
-int main(){
+main(){
     int num, init, fim, i, result;
     setlocale(LC_ALL,"Portuguese");
 
@@ -45,6 +66,7 @@ int main(){
 
 }
 */
+
 // Faça um programa que peça para o usuário digitar um número de acordo com o número digitado, o programa deve exibir a frase bom dia "n" vezes, conforme o número digitado pelo usuário.
 
 // Faça um programa que receba um número digitado pelo usuário e informe se o número é primo ou não.
