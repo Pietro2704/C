@@ -154,3 +154,23 @@ main() {
 // O jogador 2 deve informar uma letra de cada vez. Se acertar, a letra é revelada nas posições que contém a letra.
 // Se errar, a letra deve ser salva num vetor que armazenará os erros. O jogador 2 pode errar 5 vezes.
 // Caso saiba, a palavra secreta, ele pode digitar a palavra de uma só vez, porém se errar perde o jogo.
+main(){
+	char nome[100];
+	printf("Jogador 1\nDigite uma palavra: ");
+	scanf(" %[^\n]", nome);
+	
+	system("cls");
+	
+	char chute[2];
+	printf("Jogador 2\nFale uma letra: ");
+	scanf(" %[^\n]", chute);
+	
+	int i;
+	int tamanho = strlen(nome);
+	for(i = 0; i < tamanho; i++){
+		
+		if(strcmp(nome[i], chute) != 1){
+			printf("Existe essa letra");
+		}
+	}
+}
